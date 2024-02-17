@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+body {
+    font-family: "Kode Mono", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('image.jpg'); /* Substitua 'image.jpg' pelo caminho da sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+}
+
+#content {
+    position: relative;
+    z-index: 1; /* Garante que o conteúdo esteja acima da imagem de fundo */
+}
+
+#convite {
+    position: relative;
+    z-index: 1; /* Garante que o conteúdo esteja acima da imagem de fundo */
+    text-align: center;
+    color: rgb(198, 226, 165); /* Certifique-se de que o texto seja visível na imagem de fundo */
+}
+
+button {
+    font-family: "Kode Mono", monospace;
+    cursor: pointer;
+    padding: 10px 20px; /* Adicionando um pouco de preenchimento */
+    border-radius: 8px; /* Adicionando bordas arredondadas */
+    border: none; /* Removendo a borda padrão */
+    background-color: #07d657c7; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 5px; /* Adicionando um pouco de margem entre os botões */
+}
+
+button:hover {
+    background-color: #000000; /* Mudando a cor de fundo ao passar o mouse */
+}
+
+
